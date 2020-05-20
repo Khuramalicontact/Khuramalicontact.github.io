@@ -24,17 +24,17 @@ body{
 .nav-wrapper > .left-side > div{
 
     margin-right: 20px;
-    font-size: 0.9em;
-
+    font-size: 1em;
     text-transform: uppercase;
-
+    
 }
 
 .nav-link-wrapper{
 
     height: 22px;
     border-bottom: 1px solid transparent;
-    transition: border-bottom 0.5s;   
+    transition: border-bottom 0.5s;  
+   
 }
 
 .nav-link-wrapper a {
@@ -122,7 +122,12 @@ body{
 }
 
 .profile-image-wrapper img{
-    width: 60%;
+    width: 100%;
+    margin-top: 2px;
+    position: absolute;
+    left: 0;
+    
+    
 }
 
 .profile-content-wrapper{
