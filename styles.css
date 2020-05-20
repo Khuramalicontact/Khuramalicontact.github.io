@@ -90,9 +90,10 @@ body{
 }
 
 .logo-wrapper img{
-    width: 40%;
+    width: 40%; 
     margin-bottom: 20px;
 }
+
 
 .img-text-wrapper .subtitle{
     transition: 1s;
@@ -138,4 +139,15 @@ body{
 .profile-content-wrapper h1{
     color: black;
     font-weight: 600px;
+}
+
+
+@media (min-width: 1213px){
+.profile-image-wrapper img{
+    width: 70%;
+    margin-top: 2px;
+    position: relative;
+    
+}
+
 }
