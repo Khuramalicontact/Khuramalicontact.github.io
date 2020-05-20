@@ -90,7 +90,7 @@ body{
 }
 
 .logo-wrapper img{
-    width: 40%; 
+    width: 50%; 
     margin-bottom: 20px;
 }
 
@@ -144,10 +144,24 @@ body{
 
 @media (min-width: 1213px){
 .profile-image-wrapper img{
-    width: 70%;
-    margin-top: 2px;
+    
     position: relative;
+    width: 50%;
+    border-radius: 5px;
+    background-color:white;
+    padding: 20px;
+    height: auto;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     
 }
 
+}
+@media (min-width: 1213px){
+.logo-wrapper img{
+    width: 30%; 
+    margin-bottom: 20px;
+}
 }
