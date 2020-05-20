@@ -59,10 +59,9 @@ body{
     color: black !important;
 }
 
-.portfolio-items-wrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
+.col-md-4{
+    margin: 0px !important;
+    padding: 0px !important;
 }
 
 .portfolio-item-wrapper{
